@@ -1,0 +1,37 @@
+html{
+    background-color: black;
+    color: white;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    
+}
+.button{
+    background-color: 323433;
+}
+.result{
+ border-style: none;
+}
+
+.resultDisplay{
+
+}
+
+.oneToThree{
+    display: flex;
+    flex-direction: row;
+}
+.fourToSix{
+    display: flex;
+    flex-direction: row;
+}
+.sevenToNine{
+    display: flex;
+    flex-direction: row;
+}
+
+.opButton{
+    background-color: hotpink;
+}
