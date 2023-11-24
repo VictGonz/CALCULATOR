@@ -1,37 +1,70 @@
-html{
+*{
     background-color: black;
-    color: white;
-}
-.buttons{
-    display: flex;
-    flex-direction: row;
-    max-width: 250px;
-    
-}
-.button{
-    background-color: 323433;
-}
-.result{
- border-style: none;
-}
 
-.resultDisplay{
 
 }
+body{
+    justify-content: center;
+}
+main{
+    margin-top: 60px;
+   
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttonContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+max-width: 600px;
+margin-top: 5px;
+}
 
-.oneToThree{
-    display: flex;
-    flex-direction: row;
-}
-.fourToSix{
-    display: flex;
-    flex-direction: row;
-}
-.sevenToNine{
-    display: flex;
-    flex-direction: row;
+
+.container{
+display: flex;
+flex-direction: column;
+max-height: 700px;
+justify-content: center;
+
 }
 
 .opButton{
-    background-color: hotpink;
+    background-color: #f27ec3;
+}
+.opContainer{
+display: flex;
+flex-direction: column;
+}
+button{
+background-color: #333333;
+border-radius: 30px;
+max-width: 70px;
+max-width: 35px;
+min-width: 35px;
+min-height: 35px;
+border-right: 30px ;
+border-left: 40px;
+border-top: 30px;
+border-bottom: 130px;
+margin-right: 5px;
+margin-left: 5px;
+margin-top: 3px;
+margin-bottom: 3px;
+color: beige;
+}
+
+#result{
+background-color: whitesmoke;
+display: flex;
+min-height: 35px;
+max-width: 188.88px;
+border-radius: 3px;
+color: black;
+text-align: right;
+justify-content: center;
+margin-left: 210px;
 }
